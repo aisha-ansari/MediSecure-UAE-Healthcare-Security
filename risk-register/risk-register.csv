@@ -1,0 +1,8 @@
+
+Risk_ID,Asset,Threat,Vulnerability_or_Gap,Likelihood,Impact,Risk_Score,Rating,Recommended_Action,Owner,Status
+R-01,Patient records,Unauthorized disclosure,Public access or excessive storage permissions,3,5,15,High,Block public access and review storage permissions,Cloud Security,Proposed
+R-02,Staff accounts,Account compromise,MFA not enforced in simulated baseline,4,5,20,Critical,Require MFA and review privileged access,IAM Team,Proposed
+R-03,Audit logs,Incident goes undetected,Insufficient logging and alerting,3,4,12,High,Enable appropriate audit logging and configure alerts,SOC Team,Proposed
+R-04,Healthcare application,Unauthorized network access,Network rules not reviewed,3,5,15,High,Restrict inbound and outbound traffic,Cloud Security,Proposed
+R-05,Patient records,Data loss or service disruption,Backup restoration not demonstrated,3,5,15,High,Define recovery objectives and test restoration,IT Operations,Proposed
+R-06,Incident response,Delayed incident containment,Response procedures not exercised,3,4,12,High,Document responsibilities and run a tabletop exercise,Security Lead,Proposed

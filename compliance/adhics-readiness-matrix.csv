@@ -1,0 +1,12 @@
+
+Control_ID,Security_Area,Assessment_Question,Expected_Evidence,Status,Risk,Remediation,Official_ADHICS_Reference
+C-01,Identity and access,Are permissions restricted to approved job duties?,IAM policies and access review records,Not Assessed,High,Review and restrict permissions,"Section 4 ,page 49"
+C-02,Authentication,Is MFA required for privileged access?,MFA configuration and verification evidence,Not Assessed,High,Enforce and test MFA,"Section AC2.2 , page 52"
+C-03,Data protection,Is sensitive data encrypted at rest?,Storage encryption configuration,Not Assessed,High,Enable and verify encryption,"Section CS1.2 , page 95"
+C-04,Data protection,Is data protected in transit?,TLS configuration and test evidence,Not Assessed,High,Require secure transport,"Section CS1.2 , page 95"
+C-05,Network security,Are application and data resources appropriately isolated?,Network diagram and security group rules,Not Assessed,High,Restrict network paths,"Section CO 12.2 , page 82"
+C-06,Logging,Are relevant security events recorded?,Audit logging configuration and sample events,Not Assessed,Medium,Enable and review required logging,"Section Co 6 , page 69"
+C-07,Incident response,Are incident response procedures documented and tested?,Procedure and exercise records,Not Assessed,High,Document and exercise response steps,"Section IM 2.1 , page 114"
+C-08,Data leakage,Are safeguards in place to reduce unauthorized disclosure?,Data handling rules and access restrictions,Not Assessed,High,Define and test leakage-prevention controls,"Section CO 6.4 , page 70"
+C-09,Recovery,Are backups and restoration procedures tested?,Backup configuration and restoration evidence,Not Assessed,High,Define and test recovery procedures,"Section CO 5 , page 67"
+C-10,Governance,Are security risks assigned owners and tracked?,Risk register and management review records,Not Assessed,Medium,Assign owners and track remediation,To verify

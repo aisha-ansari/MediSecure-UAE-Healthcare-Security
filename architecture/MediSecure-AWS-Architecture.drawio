@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="g0Q5n_HCQZZdkIjgU9Jj">
+    <mxGraphModel dx="1542" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="920" width="770" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;" value="" vertex="1">
+          <mxGeometry height="420" width="666" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#00B7B7,#4A890C);strokeColor=#2D7600;fontColor=#ffffff;" value="&lt;b&gt;Health Care Staff&lt;/b&gt;&lt;div&gt;Doctors and authorized employees&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-6" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=light-dark(#030303, #ededed);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="384" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="&lt;b&gt;Secure application entry&lt;/b&gt;&lt;div&gt;HTTPS/TLS · Authentication · MFA&lt;/div&gt;&lt;div&gt;Proposed load balancer or secure gateway&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="160" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-10" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=light-dark(#080808, #ededed);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="384" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;p&gt;&lt;b&gt;Private application subnet&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Healthcare application · IAM role&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="158" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffcc99;strokeColor=#36393d;" value="&lt;p&gt;&lt;b&gt;Private data subnet&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Optional private database · Restricted access&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="159" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="&lt;p&gt;&lt;b&gt;Amazon S3&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Private simulated patient-record storage&lt;/p&gt;&lt;p&gt;Public access blocked · Encryption enabled&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="159" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;b&gt;&lt;br&gt;AWS VPC&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="333" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-16" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#101010;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="384" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#544266;fontColor=#ffffff;strokeColor=#432D57;" value="&lt;p&gt;&lt;b&gt;Security monitoring&lt;/b&gt;&lt;/p&gt;&lt;p&gt;CloudTrail · Alerts · SIEM integration concept&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="510" x="158" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;b&gt;&lt;br&gt;Proposed architecture — not deployed&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="410" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-19" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" value="+" vertex="1">
+          <mxGeometry height="180" width="263" x="60" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#00B7B7,#4A890C);" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#ffcc99;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="80" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;br&gt;Healthcare staff&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="100" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;br&gt;Secure application entry&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="180" x="110" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;br&gt;Private application subnet&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="190" x="110" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;Private data subnet&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="115" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;br&gt;Amazon S3&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="130" x="90" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcROF8Zakl-DlkO3Nyi-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;br&gt;Security monitoring&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="110" y="1120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

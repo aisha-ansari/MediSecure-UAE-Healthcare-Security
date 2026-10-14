@@ -1,0 +1,6 @@
+
+Test_ID,Detection_ID,Test_Scenario,Expected_Result,Actual_Result,Status
+T-01,DET-01,Repeated failed logins in a simulated event set,Analyst flags repeated failures and reviews the account,Not run,Planned
+T-02,DET-02,Unexpected access to a simulated sensitive object,Analyst checks identity and authorization,Not run,Planned
+T-03,DET-03,Unapproved simulated storage policy change,Analyst reviews the change event,Not run,Planned
+T-04,DET-04,Unexpected simulated privilege escalation,Analyst reviews the permission change,Not run,Planned
