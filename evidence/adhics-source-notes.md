@@ -23,7 +23,7 @@ This is an educational, documentation-led readiness assessment. No actual health
 
 ## Review status
 
-- [ ] Official standard downloaded
-- [ ] Relevant requirements identified
-- [ ] Exact control references verified
+- [x ] Official standard downloaded
+- [ x] Relevant requirements identified
+- [ x] Exact control references verified
 - [ ] Readiness matrix updated with source references
